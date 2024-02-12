@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 2.9.0 &mdash; 2024-02-12
+
+No functional changes compared to previous version. The only change made is the
+version number which has been aligned to the current certbot version.
+Reason being: Convention introduced with Certbot 2.1.0 which says that Certbot
+plugins need to have the same version number as the Certbot version it is built
+against.
+
 ## Version 2.1.0 &mdash; 2023-02-15
 
 This is version 2.1.0 of certbot-dns-joker because the convention is now that

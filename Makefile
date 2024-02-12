@@ -46,7 +46,7 @@ dist/$(CERTBOT_DNS_JOKER_RPM): dist/$(CERTBOT_DNS_JOKER_TGZ) packaging/$(CERTBOT
 docker-image: dist/$(CERTBOT_DNS_JOKER_WHL) packaging/Dockerfile packaging/install-other-plugins
 	rm -rf docker-context; mkdir docker-context
 	ln packaging/Dockerfile packaging/install-other-plugins dist/$(CERTBOT_DNS_JOKER_WHL) docker-context/
-	docker build --tag certbot-joker:$(VERSION) --tag certbot-joker \
+	docker build --tag mrshaba/certbot-dns-joker:$(VERSION) --tag mrshaba/certbot-dns-joker \
 	  --build-arg CERTBOT_DNS_JOKER_WHL=$(CERTBOT_DNS_JOKER_WHL) \
 	  --build-arg DOCKER_OTHER_PLUGINS="$(DOCKER_OTHER_PLUGINS)" \
 	  docker-context

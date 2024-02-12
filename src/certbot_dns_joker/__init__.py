@@ -90,16 +90,16 @@ Examples
 # The following lines are extracted so they must be of the form:
 # __KEY__ = "VALUE"
 
-__version__ = "2.1.0"
+__version__ = "2.9.0"
 
 __title__ = "certbot-dns-joker"
 __description__ = "Joker DNS Authenticator plugin for Certbot"
-__url__ = "https://github.com/dhull/certbot-dns-joker"
+__url__ = "https://github.com/mr-shaba/certbot-dns-joker"
 __doc__ = __description__ + " <" + __url__ + ">"
 
-__author__ = "David Hull"
-__email__ = "github@davidhull.org"
-__issue_tracker__ = 'https://github.com/dhull/certbot-dns-joker/issues'
+__author__ = "Mr Shaba"
+__email__ = "mr_shaba@gmx.net"
+__issue_tracker__ = 'https://github.com/mr-shaba/certbot-dns-joker/issues'
 
 __license__ = "Apache 2.0"
 __copyright__ = "Copyright 2022 David Hull"
